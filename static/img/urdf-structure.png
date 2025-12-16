@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="600"
+   height="400"
+   viewBox="0 0 600 400"
+   id="svg2"
+   version="1.1"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-14)"
+   sodipodi:docname="urdf-structure.png">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="300"
+     inkscape:cy="200"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>URDF Structure</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <!-- Background -->
+    <rect
+       style="fill:#f8f9fa;fill-opacity:1;stroke:none"
+       id="rect815"
+       width="600"
+       height="400"
+       x="0"
+       y="0" />
+
+    <!-- Title -->
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:20px;line-height:1.25;font-family:sans-serif;fill:#2e8555;fill-opacity:1;stroke:none"
+       x="300"
+       y="40"
+       id="text819"
+       text-anchor="middle">
+      <tspan
+         sodipodi:role="line"
+         id="tspan817"
+         x="300"
+         y="40">URDF Structure: Links and Joints</tspan>
+    </text>
+
+    <!-- Robot Base -->
+    <rect
+       style="fill:#4285f4;fill-opacity:1;stroke:#1a73e8;stroke-width:2;stroke-opacity:1"
+       id="rect821"
+       width="100"
+       height="120"
+       x="250"
+       y="200"
+       ry="10" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:14px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none"
+       x="300"
+       y="260"
+       id="text825"
+       text-anchor="middle">
+      <tspan
+         sodipodi:role="line"
+         id="tspan823"
+         x="300"
+         y="260">base_link</tspan>
+    </text>
+
+    <!-- Arm Link 1 -->
+    <rect
+       style="fill:#34a853;fill-opacity:1;stroke:#1e8e3e;stroke-width:2;stroke-opacity:1"
+       id="rect829"
+       width="30"
+       height="100"
+       x="285"
+       y="100"
+       ry="5" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none"
+       x="300"
+       y="150"
+       id="text833"
+       text-anchor="middle">
+      <tspan
+         sodipodi:role="line"
+         id="tspan831"
+         x="300"
+         y="150">arm_link1</tspan>
+    </text>
+
+    <!-- Arm Link 2 -->
+    <rect
+       style="fill:#ea4335;fill-opacity:1;stroke:#d33b2c;stroke-width:2;stroke-opacity:1"
+       id="rect837"
+       width="25"
+       height="80"
+       x="287.5"
+       y="20"
+       ry="5" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none"
+       x="300"
+       y="60"
+       id="text841"
+       text-anchor="middle">
+      <tspan
+         sodipodi:role="line"
+         id="tspan839"
+         x="300"
+         y="60">arm_link2</tspan>
+    </text>
+
+    <!-- Joint 1 (Revolute) -->
+    <circle
+       style="fill:#fbbc04;fill-opacity:1;stroke:#f29900;stroke-width:2;stroke-opacity:1"
+       id="path845"
+       cx="300"
+       cy="200"
+       r="10" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
+       x="300"
+       y="195"
+       id="text849"
+       text-anchor="middle">
+      <tspan
+         sodipodi:role="line"
+         id="tspan847"
+         x="300"
+         y="195">J1</tspan>
+      <tspan
+         sodipodi:role="line"
+         x="300"
+         y="210"
+         id="tspan851">(Revolute)</tspan>
+    </text>
+
+    <!-- Joint 2 (Revolute) -->
+    <circle
+       style="fill:#fbbc04;fill-opacity:1;stroke:#f29900;stroke-width:2;stroke-opacity:1"
+       id="circle853"
+       cx="300"
+       cy="100"
+       r="10" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
+       x="300"
+       y="95"
+       id="text857"
+       text-anchor="middle">
+      <tspan
+         sodipodi:role="line"
+         id="tspan855"
+         x="300"
+         y="95">J2</tspan>
+      <tspan
+         sodipodi:role="line"
+         x="300"
+         y="110"
+         id="tspan859">(Revolute)</tspan>
+    </text>
+
+    <!-- Arrows showing joint movement -->
+    <path
+       style="fill:none;stroke:#ea4335;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-dasharray:4,4"
+       d="m 250,200 c 0,-40 50,-40 50,0 0,40 50,40 50,0"
+       id="path861"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:none;stroke:#ea4335;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-dasharray:4,4"
+       d="m 250,100 c 0,-30 35,-30 35,0 0,30 35,30 35,0"
+       id="path863"
+       sodipodi:nodetypes="ccc" />
+
+    <!-- Labels -->
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:14px;line-height:1.25;font-family:sans-serif;fill:#2e8555;fill-opacity:1;stroke:none"
+       x="100"
+       y="100"
+       id="text867">
+      <tspan
+         sodipodi:role="line"
+         id="tspan865"
+         x="100"
+         y="100">Links (Rigid Bodies)</tspan>
+      <tspan
+         sodipodi:role="line"
+         x="100"
+         y="117.5"
+         id="tspan869">- base_link</tspan>
+      <tspan
+         sodipodi:role="line"
+         x="100"
+         y="135"
+         id="tspan871">- arm_link1</tspan>
+      <tspan
+         sodipodi:role="line"
+         x="100"
+         y="152.5"
+         id="tspan873">- arm_link2</tspan>
+    </text>
+
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:14px;line-height:1.25;font-family:sans-serif;fill:#f29900;fill-opacity:1;stroke:none"
+       x="100"
+       y="200"
+       id="text877">
+      <tspan
+         sodipodi:role="line"
+         id="tspan875"
+         x="100"
+         y="200">Joints (Connections)</tspan>
+      <tspan
+         sodipodi:role="line"
+         x="100"
+         y="217.5"
+         id="tspan879">- Joint 1: Revolute</tspan>
+      <tspan
+         sodipodi:role="line"
+         x="100"
+         y="235"
+         id="tspan881">- Joint 2: Revolute</tspan>
+    </text>
+
+    <!-- URDF XML representation box -->
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#6c757d;stroke-width:1;stroke-opacity:1"
+       id="rect883"
+       width="180"
+       height="100"
+       x="380"
+       y="250" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
+       x="390"
+       y="270"
+       id="text887">
+      <tspan
+         sodipodi:role="line"
+         id="tspan885"
+         x="390"
+         y="270">&lt;robot name="simple_arm"&gt;</tspan>
+      <tspan
+         sodipodi:role="line"
+         x="390"
+         y="282.5"
+         id="tspan889">  &lt;link name="base_link"&gt;...&lt;/link&gt;</tspan>
+      <tspan
+         sodipodi:role="line"
+         x="390"
+         y="295"
+         id="tspan891">  &lt;link name="arm_link1"&gt;...&lt;/link&gt;</tspan>
+      <tspan
+         sodipodi:role="line"
+         x="390"
+         y="307.5"
+         id="tspan893">  &lt;link name="arm_link2"&gt;...&lt;/link&gt;</tspan>
+      <tspan
+         sodipodi:role="line"
+         x="390"
+         y="320"
+         id="tspan895">  &lt;joint name="joint1"&gt;...&lt;/joint&gt;</tspan>
+      <tspan
+         sodipodi:role="line"
+         x="390"
+         y="332.5"
+         id="tspan897">  &lt;joint name="joint2"&gt;...&lt;/joint&gt;</tspan>
+      <tspan
+         sodipodi:role="line"
+         x="390"
+         y="345"
+         id="tspan899">&lt;/robot&gt;</tspan>
+    </text>
+
+    <!-- Connection lines -->
+    <line
+       style="fill:none;stroke:#6c757d;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-dasharray:4,4"
+       x1="250"
+       y1="250"
+       x2="180"
+       y2="120"
+       id="line901" />
+    <line
+       style="fill:none;stroke:#6c757d;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-dasharray:4,4"
+       x1="350"
+       y1="250"
+       x2="470"
+       y2="270"
+       id="line903" />
+  </g>
+</svg>
